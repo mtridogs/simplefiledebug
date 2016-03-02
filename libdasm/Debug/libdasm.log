@@ -1,0 +1,41 @@
+﻿生成启动时间为 2016/2/13 16:12:30。
+     1>项目“E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\libdasm\libdasm.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\libdasm.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\chengxu\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(35): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\chengxu\vs\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(61): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(69): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(76): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(86): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(92): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\chengxu\vs\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(116): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(33): warning C4101: “thread_context”: 未引用的局部变量
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(30): warning C4101: “debugevent”: 未引用的局部变量
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(34): warning C4101: “key_execption”: 未引用的局部变量
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(32): warning C4101: “openprocess”: 未引用的局部变量
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(44): warning C4101: “sa”: 未引用的局部变量
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(38): warning C4101: “inst”: 未引用的局部变量
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(31): warning C4101: “openthread”: 未引用的局部变量
+     1>e:\tool\mytool\corc++\fuzz\debugfile\libdasm\libdasm\main.cpp(237): warning C4996: '_strupr': This function or variable may be unsafe. Consider using _strupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\chengxu\vs\vc\include\string.h(203) : 参见“_strupr”的声明
+       Link:
+         D:\chengxu\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Debug\libdasm.exe" /NOLOGO libdasm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libdasm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Debug\libdasm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Debug\libdasm.lib" /MACHINE:X86 Debug\debugthread.obj
+         Debug\main.obj
+         LINK : 没有找到 E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Debug\libdasm.exe 或上一个增量链接没有生成它；正在执行完全链接
+         libdasm.vcxproj -> E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Debug\libdasm.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Debug\libdasm.exe;#1" /manifest Debug\libdasm.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\libdasm.unsuccessfulbuild”。
+         正在对“Debug\libdasm.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\libdasm\libdasm.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.23

@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/2/12 1:17:08。
+     1>项目“E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\libdasm\libdasm.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\libdasm.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\chengxu\vs\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\chengxu\vs\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>main.cpp(42): warning C4129: “.”: 不可识别的字符转义序列
+     1>main.cpp(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\chengxu\vs\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>main.cpp(65): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>main.cpp(76): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>main.cpp(86): warning C4018: “<=”: 有符号/无符号不匹配
+     1>main.cpp(181): warning C4996: '_strupr': This function or variable may be unsafe. Consider using _strupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\chengxu\vs\VC\include\string.h(203) : 参见“_strupr”的声明
+       Link:
+         D:\chengxu\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Release\libdasm.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\libdasm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Release\libdasm.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Release\libdasm.lib" /MACHINE:X86 Release\main.obj
+     1>main.obj : error LNK2001: 无法解析的外部符号 _get_instruction_string
+     1>main.obj : error LNK2001: 无法解析的外部符号 _get_instruction
+     1>E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\Release\libdasm.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“E:\tool\mytool\CorC++\fuzz\debugfile\libdasm\libdasm\libdasm.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.76
